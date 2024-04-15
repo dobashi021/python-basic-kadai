@@ -1,15 +1,15 @@
 # 台形の面積の計算
-#上辺
 
+#上辺
 top_side = 10
 #下辺
 bottom_side = 20
 #高さ
 hight = 5
 
-#台形の面積を計算し、戻り値をareaとする 
+#台形の面積を計算し、戻り値をareaとする
 #公式：台形の面積 =（上辺＋下辺）× 高さ ÷ 2
 area= (int(top_side) + int(bottom_side)) * int(hight) / 2
 
 #面積の結果
-print(f"{area}cm2")
+print(f"{area}㎠")
