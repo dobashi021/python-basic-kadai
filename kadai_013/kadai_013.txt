@@ -3,7 +3,5 @@ def total_price(price,tax):
     tax_amount = price * (tax / 100)
     # 税込み価格を算出
     total_price = price + tax_amount
-
-    print(f"{price}円 (税込み:{total_price})円")
-
-total_price(1520, 10)
+    return total_price
+total_price(1000, 8)
