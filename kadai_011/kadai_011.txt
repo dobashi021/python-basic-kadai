@@ -1,13 +1,13 @@
 # for文で文字列を出力
-array = ["水","金","地","火","木","土","天","海","冥"]
-for array in array:
-  print(array)
+planet_list = ["水","金","地","火","木","土","天","海","冥"]
+for planet_list in planet_list:
+  print(planet_list)
+
+
 
 # while文で文字列を出力
-array = ["水","金","地","火","木","土","天","海","冥"]
+planet_data = ["水","金","地","火","木","土","天","海","冥"]
 i = 0
-while True:
-  print(array[i])
-  if array[i] == "冥":
-    break
-  i += 1
+while i < 9:
+    print(planet_data[i])
+    i += 1
